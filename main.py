@@ -15,8 +15,7 @@ def autocorrect_case(input_string, correct_strings):
 
 
 while True:
-    print("Type 'new' to make a new streak or 'add' to increase streak or 'exit' to exit: ")
-    choice = str(input())
+    choice = str(input("Type 'new' to make a new streak or 'add' to increase streak or 'exit' to exit: "))
     if choice.lower() == "new":
         new_streak = str(input("What will be the name of this streak?"))
         new_streak_days = int(input("How long is this streak currently?"))
